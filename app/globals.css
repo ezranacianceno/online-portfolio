@@ -1,47 +1,69 @@
 @import 'tailwindcss';
 
 :root {
-  --background: #fcf7f8;
-  --foreground: #171717;
+    --background: #fcf7f8;
+    --foreground: #171717;
 }
 
 @theme {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-light-grey: #ced3dc;
-  --color-white: #fcf7f8;
-  --color-rose-quartz: #aba9c3;
-  --color-denim: #275dad;
-  --color-dark-grey: #5b616a;
-  --font-lexend: var(--font-lexend);
-  --font-oswald: var(--font-oswald);
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-light-grey: #ced3dc;
+    --color-white: #fcf7f8;
+    --color-rose-quartz: #aba9c3;
+    --color-denim: #275dad;
+    --color-dark-grey: #5b616a;
+    --font-lexend: var(--font-lexend);
+    --font-oswald: var(--font-oswald);
 }
+@utility container {
+    margin: auto;
+    padding: 2rem;
+    @media (min-width: 640px) {
+        max-width: 640px; /* sm */
+    }
 
+    @media (min-width: 768px) {
+        max-width: 768px; /* md */
+    }
+
+    @media (min-width: 1024px) {
+        max-width: 1024px; /* lg */
+    }
+
+    @media (min-width: 1280px) {
+        max-width: 1240px; /* xl */
+    }
+
+    @media (min-width: 1536px) {
+        max-width: 1440px; /* 2xl */
+    }
+}
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-lexend);
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-lexend);
 }
 
 @layer base {
-  h1 {
-    font-size: var(--text-4xl);
-    color: var(--color-dark-grey);
-    font-family: var(--font-oswald);
-    font-weight: bold;
-    letter-spacing: 3px;
-  }
+    h1 {
+        font-size: var(--text-4xl);
+        color: var(--color-dark-grey);
+        font-family: var(--font-oswald);
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
 
-  h2 {
-    font-size: var(--text-3xl);
-    color: var(--color-denim);
-    font-family: var(--font-oswald);
-  }
+    h2 {
+        font-size: var(--text-3xl);
+        color: var(--color-denim);
+        font-family: var(--font-oswald);
+    }
 }
