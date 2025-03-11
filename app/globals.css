@@ -18,17 +18,17 @@
 }
 @utility container {
     margin: auto;
-    padding: 2rem;
+    padding: 16px;
     @media (min-width: 640px) {
         max-width: 640px; /* sm */
     }
 
     @media (min-width: 768px) {
-        max-width: 768px; /* md */
+        max-width: 668px; /* md */
     }
 
     @media (min-width: 1024px) {
-        max-width: 1024px; /* lg */
+        max-width: 900px; /* lg */
     }
 
     @media (min-width: 1280px) {
@@ -47,7 +47,7 @@
 }
 
 body {
-    background: var(--background);
+    background: var(--color-white);
     color: var(--foreground);
     font-family: var(--font-lexend);
 }
@@ -55,7 +55,6 @@ body {
 @layer base {
     h1 {
         font-size: var(--text-4xl);
-        color: var(--color-dark-grey);
         font-family: var(--font-oswald);
         font-weight: bold;
         letter-spacing: 3px;
@@ -63,7 +62,6 @@ body {
 
     h2 {
         font-size: var(--text-3xl);
-        color: var(--color-denim);
         font-family: var(--font-oswald);
     }
 }

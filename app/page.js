@@ -1,8 +1,13 @@
+import Navbar from '@/components/Navbar';
+
 export default function Home() {
-  return (
-    <>
-      <h1 className="font-varela">Online Portfolio</h1>
-      <p className="text-rose-quartz">Hello everyone! What is up?</p>
-    </>
-  );
+    return (
+        <>
+            <Navbar />
+            <div className="container">
+                <h1 className="font-varela text-dark-grey">Online Portfolio</h1>
+                <p className="text-denim">Hello everyone! What is up?</p>
+            </div>
+        </>
+    );
 }
