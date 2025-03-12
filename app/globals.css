@@ -63,5 +63,16 @@ body {
     h2 {
         font-size: var(--text-3xl);
         font-family: var(--font-oswald);
+        color: var(--color-denim);
+    }
+
+    h3 {
+        font-family: var(--font-oswald);
+        font-size: var(--text-xl);
+        color: var(--color-denim);
+    }
+
+    p {
+        color: var(--color-dark-grey);
     }
 }

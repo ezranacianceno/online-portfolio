@@ -1,12 +1,18 @@
+import About from '@/components/About';
+import Certifications from '@/components/Certifications';
+import Name from '@/components/Name';
 import Navbar from '@/components/Navbar';
+import Skills from '@/components/Skills';
 
 export default function Home() {
     return (
         <>
             <Navbar />
-            <div className="container">
-                <h1 className="font-varela text-dark-grey">Online Portfolio</h1>
-                <p className="text-denim">Hello everyone! What is up?</p>
+            <div className="container flex flex-col gap-8">
+                <Name />
+                <About />
+                <Skills />
+                <Certifications />
             </div>
         </>
     );

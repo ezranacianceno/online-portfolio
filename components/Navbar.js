@@ -9,7 +9,7 @@ export default function Navbar() {
         <nav className="bg-rose-quartz text-white text-lg">
             <div className="container p-4 flex justify-between">
                 <Link href="/">Ezra</Link>
-                <div>
+                <div className="flex items-center">
                     <button
                         className="md:hidden"
                         onClick={() => setIsOpen(!isOpen)}
@@ -23,11 +23,19 @@ export default function Navbar() {
                     {/* Mobile Menu */}
                     {isOpen && (
                         <div className="">
-                            <ul className="flex flex-col md:hidden gap-6 w-1/2 absolute z-99 top-14 right-0 p-4 h-full bg-rose-quartz/80">
+                            <ul className="flex flex-col md:hidden gap-6 w-1/2 absolute z-[99] top-14 right-0 p-4 h-full bg-rose-quartz/80">
                                 <li>
                                     <Link
                                         href="#home"
-                                        onClick={() => setIsOpen(!isOpen)}
+                                        onClick={() => {
+                                            // e.preventDefault();
+                                            // document
+                                            //     .getElementById('home')
+                                            //     .scrollIntoView({
+                                            //         behavior: 'smooth',
+                                            //     });
+                                            setIsOpen(!isOpen);
+                                        }}
                                         className="w-full flex"
                                     >
                                         Home
