@@ -48,7 +48,7 @@
 
 body {
     background: var(--color-white);
-    color: var(--foreground);
+    color: var(--color-dark-grey);
     font-family: var(--font-lexend);
 }
 
