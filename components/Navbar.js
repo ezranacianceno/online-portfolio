@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className="bg-rose-quartz text-white text-lg">
+        <nav className="bg-rose-quartz text-white text-lg sticky top-0">
             <div className="container p-4 flex justify-between">
                 <Link href="/">Ezra</Link>
                 <div className="flex items-center">
@@ -23,41 +23,46 @@ export default function Navbar() {
                     {/* Mobile Menu */}
                     {isOpen && (
                         <div className="">
-                            <ul className="flex flex-col md:hidden gap-6 w-1/2 absolute z-[99] top-14 right-0 p-4 h-full bg-rose-quartz/80">
+                            <ul className="flex flex-col md:hidden gap-6 w-1/2 absolute z-[99] top-14 right-0 p-4 h-screen bg-rose-quartz/80">
                                 <li>
                                     <Link
-                                        href="#home"
+                                        href="#about"
                                         onClick={() => {
-                                            // e.preventDefault();
-                                            // document
-                                            //     .getElementById('home')
-                                            //     .scrollIntoView({
-                                            //         behavior: 'smooth',
-                                            //     });
                                             setIsOpen(!isOpen);
                                         }}
                                         className="w-full flex"
                                     >
-                                        Home
+                                        About
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
-                                        href="#contact"
+                                        href="#projects"
+                                        onClick={() => {
+                                            setIsOpen(!isOpen);
+                                        }}
+                                        className="w-full flex"
+                                    >
+                                        Projects
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        href="#skills"
                                         onClick={() => setIsOpen(!isOpen)}
                                         className="w-full flex"
                                     >
                                         {' '}
-                                        Contact
+                                        Skills
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
-                                        href="#about"
+                                        href="#certifications"
                                         onClick={() => setIsOpen(!isOpen)}
                                         className="w-full flex"
                                     >
-                                        About
+                                        Certifications
                                     </Link>
                                 </li>
                             </ul>
@@ -67,13 +72,16 @@ export default function Navbar() {
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex gap-6">
                     <li>
-                        <Link href="#home">Home</Link>
-                    </li>
-                    <li>
-                        <Link href="#contact">Contact</Link>
-                    </li>
-                    <li>
                         <Link href="#about">About</Link>
+                    </li>
+                    <li>
+                        <Link href="#projects">Projects</Link>
+                    </li>
+                    <li>
+                        <Link href="#skills">Skills</Link>
+                    </li>
+                    <li>
+                        <Link href="#certifications">Certifications</Link>
                     </li>
                 </ul>
             </div>

@@ -1,6 +1,6 @@
 export default function Skills() {
     return (
-        <div className="flex flex-col gap-4">
+        <section id="skills" className="flex flex-col gap-4">
             <h2>Skills</h2>
             <p className="font-sans leading-10 text-denim">
                 <span className="border rounded-full p-2 mr-3">React</span>
@@ -23,12 +23,6 @@ export default function Skills() {
             </p>
 
             <h3 className="">Tools</h3>
-            <p className="font-sans">
-                <span className="border rounded-full p-2 mr-3">GitHub</span>
-                <span className="border rounded-full p-2 mr-3">Postman</span>
-                <span className="border rounded-full p-2 mr-3">Docker</span>
-                <span className="border rounded-full p-2 mr-3">Figma</span>
-            </p>
-        </div>
+        </section>
     );
 }

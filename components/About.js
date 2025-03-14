@@ -2,7 +2,7 @@ import { IoIosInformationCircleOutline } from 'react-icons/io';
 
 export default function About() {
     return (
-        <div className="flex flex-col gap-4">
+        <section id="about" className="flex flex-col gap-4">
             <div className="flex items-center gap-4">
                 <IoIosInformationCircleOutline
                     className="text-denim"
@@ -20,6 +20,6 @@ export default function About() {
                 collaborate effectively in team environments and successful
                 project outcomes.
             </p>
-        </div>
+        </section>
     );
 }
