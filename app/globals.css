@@ -9,16 +9,16 @@
     --color-background: var(--background);
     --color-foreground: var(--foreground);
     --color-light-grey: #ced3dc;
-    --color-white: #fcf7f8;
-    --color-rose-quartz: #aba9c3;
-    --color-denim: #275dad;
-    --color-dark-grey: #5b616a;
+    --color-white: #fff;
+    --color-rose-quartz: #595cff;
+    --color-denim: #717fff;
+    --color-dark-grey: #000000;
     --font-lexend: var(--font-lexend);
     --font-oswald: var(--font-oswald);
 }
 @utility container {
     margin: auto;
-    padding: 16px;
+    padding: 40px 0;
     @media (min-width: 640px) {
         max-width: 640px; /* sm */
     }
