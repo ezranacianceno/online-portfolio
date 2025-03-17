@@ -10,10 +10,8 @@ export default function Home() {
         <>
             <Navbar />
             <div className="flex flex-col gap-8">
-                {/* <div className="bg-[#96B3FF]"> */}
                 <Name />
                 <About />
-                {/* </div> */}
                 <Projects />
                 <Skills />
                 <Certifications />
