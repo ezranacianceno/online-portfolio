@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Projects() {
     return (
-        <section id="projects" className="flex flex-col gap-4">
+        <section id="projects" className="flex flex-col gap-4 scroll-mt-[70px]">
             <h2>Projects</h2>
             <div className="flex flex-col lg:grid lg:grid-cols-2 lg:items-stretch gap-4">
                 <Link href="https://upria.sence1.com/" target="_blank">

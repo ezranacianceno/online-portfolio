@@ -1,6 +1,6 @@
 export default function Skills() {
     return (
-        <section id="skills" className="flex flex-col gap-4">
+        <section id="skills" className="flex flex-col gap-4 scroll-mt-[70px]">
             <h2>Skills</h2>
             <ul className="flex font-sans flex-wrap gap-y-2 text-denim">
                 <li className="border rounded-full p-2 mr-3">React</li>

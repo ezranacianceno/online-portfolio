@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Certifications() {
     return (
-        <section id="certifications">
+        <section id="certifications" className="scroll-mt-[70px]">
             <h2 className="mb-4">Certifications</h2>
             <div className="flex flex-col md:grid md:grid-cols-2 gap-4">
                 <div className="border border-gray-300 rounded-lg p-4">
