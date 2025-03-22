@@ -17,9 +17,10 @@ export default function Projects() {
                             className="w-full xl:h-[350px]"
                         />
                         <p>
-                            Upria is a full-stack real estate platform designed
-                            for real estate agents to manage property listings
-                            and client inquiries efficiently.
+                            Upria is a full-stack real estate platform I
+                            contributed to while working in Sence1. It is
+                            designed for real estate agents to manage property
+                            listings and client inquiries efficiently.
                         </p>
                         <p>Tech Stack:</p>
                         <ul className="flex flex-wrap gap-y-2 text-dark-grey">
