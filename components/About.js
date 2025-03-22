@@ -12,13 +12,13 @@ export default function About() {
             </div>
             <p className="leading-7">
                 I am a Front-End Developer specializing in Next JS and Tailwind
-                CSS. I have 3 years of work experience, creating modern,
+                CSS. I have 2 years of work experience, creating modern,
                 accessible, search-engine-optimized (SEO) websites and web
                 applications. I also have hands-on experience with Content
-                Management Systems such as WordPress. My background in project
-                management, adaptability, and perseverance empower me to
-                collaborate effectively in team environments and successful
-                project outcomes.
+                Management Systems (CMS) such as WordPress. My background in
+                Environmental Planning has strengthened my problem-solving,
+                project management, and collaboration skills, enhancing my
+                approach to development.
             </p>
         </section>
     );
