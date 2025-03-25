@@ -2,10 +2,10 @@ import Link from 'next/link';
 
 export default function Certifications() {
     return (
-        <section id="certifications" className="container scroll-mt-[70px]">
+        <section id="certifications" className="container scroll-mt-[60px]">
             <h2 className="mb-4">Certifications</h2>
             <div className="flex flex-col md:grid md:grid-cols-2 gap-4">
-                <div className="border border-gray-300 rounded-lg p-4">
+                <div className="border-1 border-black rounded-lg p-4">
                     <p className="text-md font-semibold">
                         Zuitt{"'"}s Web Developer Course
                     </p>
@@ -18,7 +18,7 @@ export default function Certifications() {
                         View Certificate
                     </Link>
                 </div>
-                <div className="border border-gray-300 rounded-lg p-4">
+                <div className="border-1 border-black rounded-lg p-4">
                     <p className="text-md font-semibold">Introduction to PHP</p>
                     <p>Zuitt Coding Bootcamp</p>
                     <p>November 2022</p>
@@ -29,7 +29,7 @@ export default function Certifications() {
                         View Certificate
                     </Link>
                 </div>
-                <div className="border border-gray-300 rounded-lg p-4">
+                <div className="border-1 border-black rounded-lg p-4">
                     <p className="text-md font-semibold">
                         Introduction to Laravel
                     </p>
@@ -42,7 +42,7 @@ export default function Certifications() {
                         View Certificate
                     </Link>
                 </div>
-                <div className="border border-gray-300 rounded-lg p-4">
+                <div className="border-1 border-black rounded-lg p-4">
                     <p className="text-md font-semibold">
                         Introduction to MySQL
                     </p>
@@ -55,7 +55,7 @@ export default function Certifications() {
                         View Certificate
                     </Link>
                 </div>
-                <div className="border border-gray-300 rounded-lg p-4">
+                <div className="border-1 border-black rounded-lg p-4">
                     <p className="text-md font-semibold">
                         Introduction to Unit Testing
                     </p>
@@ -68,7 +68,7 @@ export default function Certifications() {
                         View Certificate
                     </Link>
                 </div>
-                <div className="border border-gray-300 rounded-lg p-4">
+                <div className="border-1 border-black rounded-lg p-4">
                     <p className="text-md font-semibold">
                         HubSpot CMS for Developers
                     </p>
@@ -81,7 +81,7 @@ export default function Certifications() {
                         View Certificate
                     </Link>
                 </div>
-                <div className="border border-gray-300 rounded-lg p-4">
+                <div className="border-1 border-black rounded-lg p-4">
                     <p className="text-md font-semibold">
                         The Fundamentals of Digital Marketing
                     </p>

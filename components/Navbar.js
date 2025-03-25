@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className="bg-rose-quartz text-white text-lg sticky top-0">
+        <nav className="bg-neon-blue text-white text-lg sticky top-0 z-99">
             <div className="container p-4 flex justify-between">
                 <Link href="/">Ezra</Link>
                 <div className="flex items-center">
@@ -23,14 +23,14 @@ export default function Navbar() {
                     {/* Mobile Menu */}
                     {isOpen && (
                         <div className="">
-                            <ul className="flex flex-col md:hidden gap-6 w-1/2 absolute z-[99] top-14 right-0 p-4 h-screen bg-rose-quartz/80">
+                            <ul className="flex flex-col md:hidden gap-6 w-1/2 absolute z-[99] top-14 right-0 p-4 h-screen bg-neon-blue/80">
                                 <li>
                                     <Link
                                         href="#about"
                                         onClick={() => {
                                             setIsOpen(!isOpen);
                                         }}
-                                        className="w-full flex"
+                                        className="w-full flex text-white"
                                     >
                                         About
                                     </Link>

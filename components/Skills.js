@@ -2,15 +2,25 @@ export default function Skills() {
     return (
         <section
             id="skills"
-            className="container flex flex-col gap-4 scroll-mt-[70px]"
+            className="container flex flex-col gap-4 scroll-mt-[60px]"
         >
             <h2>Skills</h2>
-            <ul className="flex font-sans flex-wrap gap-y-2 text-denim">
-                <li className="border rounded-full p-2 mr-3">React</li>
-                <li className="border rounded-full p-2 mr-3">Next JS</li>
-                <li className="border rounded-full p-2 mr-3">Tailwind CSS</li>
-                <li className="border rounded-full p-2 mr-3">Strapi</li>
-                <li className="border rounded-full p-2 mr-3">WordPress</li>
+            <ul className="flex font-sans flex-wrap gap-y-2 text-white">
+                <li className="border rounded-full p-2 mr-3 bg-indigo">
+                    React
+                </li>
+                <li className="border rounded-full p-2 mr-3 bg-indigo">
+                    Next JS
+                </li>
+                <li className="border rounded-full p-2 mr-3 bg-indigo">
+                    Tailwind CSS
+                </li>
+                <li className="border rounded-full p-2 mr-3 bg-indigo">
+                    Strapi
+                </li>
+                <li className="border rounded-full p-2 mr-3 bg-indigo">
+                    WordPress
+                </li>
             </ul>
             <ul className="flex font-sans flex-wrap gap-y-2">
                 <li className="border rounded-full p-2 mr-3">HTML5</li>
