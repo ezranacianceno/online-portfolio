@@ -20,8 +20,7 @@ export default function Projects() {
                     spaceBetween={10}
                     slidesPerView={1}
                     pagination={{ clickable: true }}
-                    className="w-[280px] md:w-[425px] lg:w-[600px]"
-                >
+                    className="w-[280px] md:w-[425px] lg:w-[600px]">
                     <SwiperSlide className="pb-10">
                         <Link href="https://upria.sence1.com/" target="_blank">
                             <div className="flex flex-col gap-4 p-6 rounded-2xl h-full flex-1 bg-white">

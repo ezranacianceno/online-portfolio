@@ -73,7 +73,7 @@ export default function Certifications() {
                         HubSpot CMS for Developers
                     </p>
                     <p>HubSpot Academy</p>
-                    <p>July 2024 - August 2025</p>
+                    <p>Valid from July 2024 to August 2025</p>
                     <Link
                         href="https://app.hubspot.com/academy/achievements/9c8rlgds/en/1/ezra-nacianceno/hubspot-cms-for-developers"
                         className="underline hover:opacity-50"
