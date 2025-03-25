@@ -2,10 +2,13 @@ import { IoIosInformationCircleOutline } from 'react-icons/io';
 
 export default function About() {
     return (
-        <section id="about" className="flex flex-col gap-4 scroll-mt-[70px]">
+        <section
+            id="about"
+            className="container flex flex-col gap-4 scroll-mt-[60px] pt-0"
+        >
             <div className="flex items-center gap-4">
                 <IoIosInformationCircleOutline
-                    className="text-denim"
+                    className="text-indigo"
                     size={30}
                 />
                 <h2>About</h2>

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 export default function Name() {
     return (
-        <div className="flex gap-4 items-center">
+        <div className="container flex gap-4 items-center pb-0">
             <Image
                 src="/img_coffee.png"
                 width={50}

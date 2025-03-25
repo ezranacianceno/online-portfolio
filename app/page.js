@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <Navbar />
-            <div className="container flex flex-col gap-8">
+            <div className="flex flex-col gap-8">
                 <Name />
                 <About />
                 <Projects />

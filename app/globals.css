@@ -9,16 +9,15 @@
     --color-background: var(--background);
     --color-foreground: var(--foreground);
     --color-light-grey: #ced3dc;
-    --color-white: #fcf7f8;
-    --color-rose-quartz: #aba9c3;
-    --color-denim: #275dad;
-    --color-dark-grey: #5b616a;
+    --color-neon-blue: #595cff;
+    --color-indigo: #717fff;
+    --color-dark-grey: #000000;
     --font-lexend: var(--font-lexend);
     --font-oswald: var(--font-oswald);
 }
 @utility container {
     margin: auto;
-    padding: 16px;
+    padding: 40px 20px;
     @media (min-width: 640px) {
         max-width: 640px; /* sm */
     }
@@ -63,16 +62,24 @@ body {
     h2 {
         font-size: var(--text-3xl);
         font-family: var(--font-oswald);
-        color: var(--color-denim);
+        color: var(--color-indigo);
     }
 
     h3 {
         font-family: var(--font-oswald);
         font-size: var(--text-xl);
-        color: var(--color-denim);
+        color: var(--color-indigo);
     }
 
     p {
         color: var(--color-dark-grey);
+    }
+
+    a {
+        color: var(--color-neon-blue);
+    }
+
+    nav a {
+        color: #ffff;
     }
 }
